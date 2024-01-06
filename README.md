@@ -11,6 +11,11 @@ docker build -t py3_test -f BackendServer/Dcokerfile .
 docker run -d -p 8080:8080 --name py3 py3_test 
 ```
 
+### check if it works
+http://localhost:8080/
+
+http://localhost:8080/activity/
+
 ---
 
 ### 資料夾架構
